@@ -18,7 +18,7 @@ const SongGrid: React.FC<SongGridProps> = ({ songs }) => {
   // Fetch video details from YouTube Data API
   useEffect(() => {
     const fetchVideoDetails = async () => {
-      const apiKey = 'AIzaSyC6uEL5dGXdbdRfO964IaKUK3Qbe0GD_PE'; // Replace with your API key
+      const apiKey = 'xxxxxxxxxxxxxxxxxxxxxxxxxxx'; // Replace with your API key
       const videoIds = songs.map((song) => song.youtubeId).join(',');
 
       try {
